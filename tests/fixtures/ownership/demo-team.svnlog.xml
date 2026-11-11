@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1000</D:version-name>
+<D:creator-displayname>plugin-master</D:creator-displayname>
+<S:date>2015-01-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1001</D:version-name>
+<D:creator-displayname>alice</D:creator-displayname>
+<S:date>2015-01-02T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1002</D:version-name>
+<D:creator-displayname>alice</D:creator-displayname>
+<S:date>2018-01-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1003</D:version-name>
+<D:creator-displayname>bob</D:creator-displayname>
+<S:date>2017-06-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1004</D:version-name>
+<D:creator-displayname>alice</D:creator-displayname>
+<S:date>2022-01-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1005</D:version-name>
+<D:creator-displayname>bob</D:creator-displayname>
+<S:date>2026-09-01T10:00:00.000000Z</S:date>
+</S:log-item>
+</S:log-report>
