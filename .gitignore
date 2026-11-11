@@ -1,0 +1,4 @@
+node_modules/
+plugins.json
+plugin-owners.json
+.DS_Store
