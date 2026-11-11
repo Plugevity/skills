@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1000</D:version-name>
+<D:creator-displayname>carol</D:creator-displayname>
+<S:date>2016-01-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1001</D:version-name>
+<D:creator-displayname>carol</D:creator-displayname>
+<S:date>2019-01-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1002</D:version-name>
+<D:creator-displayname>dave</D:creator-displayname>
+<S:date>2020-01-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1003</D:version-name>
+<D:creator-displayname>dave</D:creator-displayname>
+<S:date>2026-08-01T10:00:00.000000Z</S:date>
+</S:log-item>
+</S:log-report>

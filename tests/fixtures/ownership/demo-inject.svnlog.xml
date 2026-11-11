@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1000</D:version-name>
+<D:creator-displayname>eve</D:creator-displayname>
+<S:date>2020-01-01T10:00:00.000000Z</S:date>
+</S:log-item>
+<S:log-item>
+<D:version-name>1001</D:version-name>
+<D:creator-displayname>eve<script>|rm</D:creator-displayname>
+<S:date>2020-02-01T10:00:00.000000Z</S:date>
+</S:log-item>
+</S:log-report>

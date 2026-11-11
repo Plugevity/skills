@@ -1,12 +1,19 @@
 # Plugevity skills
 
-Agent skills for choosing and maintaining WordPress plugins. They answer two questions with
-public WordPress.org data, and explain every answer:
+Agent skills for choosing, maintaining and publishing WordPress plugins that last.
+
+For site owners and agencies, from public WordPress.org data, with every answer explained:
 
 - **Can I rely on this plugin?** ([`plugin-vetting`](skills/plugin-vetting/SKILL.md))
 - **Which plugins on this site need attention?** ([`site-plugin-audit`](skills/site-plugin-audit/SKILL.md))
+- **Has this plugin changed hands?** ([`plugin-ownership-check`](skills/plugin-ownership-check/SKILL.md))
 
-Both use the scoring method of the [Plugevity Health Score](https://plugevity.com/plugins/health-score/)
+For plugin authors:
+
+- **What happens to my plugin if I stop or sell it?** ([`plugin-continuity-plan`](skills/plugin-continuity-plan/SKILL.md))
+- **Does my readme answer what people search for?** ([`wporg-readme-search`](skills/wporg-readme-search/SKILL.md))
+
+The first two use the scoring method of the [Plugevity Health Score](https://plugevity.com/plugins/health-score/)
 WordPress plugin: last release, closure on WordPress.org, "tested up to", support replies and
 ownership changes, calibrated on 31 real plugins. See [the method](skills/plugin-vetting/references/method.md).
 
@@ -45,13 +52,15 @@ wp plugin list --format=json --fields=name,title,status,version,update_version \
 ## What they do not do
 
 - They read and report. They never update, deactivate or delete a plugin.
+- A handover between committers is not proof of a sale, and a sale is not proof of harm.
 - A score is a maintenance signal, not a security audit or a code review.
 - Premium and custom plugins have no public data, so they are shown as "Not checked".
 - An ownership change is only visible when you keep the snapshot from an earlier run.
 
 ## Privacy
 
-The scripts send plugin slugs to `api.wordpress.org` and nowhere else. Nothing is sent to
+The scripts send plugin slugs to `api.wordpress.org` (and, for the ownership check, read the
+public SVN log at `plugins.svn.wordpress.org`) and nowhere else. Nothing is sent to
 Plugevity. (The `npx skills` installer has its own anonymous install counts; set
 `DISABLE_TELEMETRY=1` to turn them off.)
 

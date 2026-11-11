@@ -2,7 +2,7 @@
   "name": "plugevity-skills",
   "version": "0.1.0",
   "private": true,
-  "description": "Agent skills for choosing and maintaining WordPress plugins.",
+  "description": "Agent skills for choosing, maintaining and publishing WordPress plugins that last.",
   "license": "MIT",
   "type": "module",
   "engines": { "node": ">=18" },
